@@ -1,0 +1,280 @@
+body {
+  background-color: #FEEFD9;
+  background-image: url(../images/background-img.png);
+  background-repeat: repeat;
+  font-family: 'Kaisei Decol', serif;
+  font-family: 'Kiwi Maru', serif;
+  font-size: 1em;
+  letter-spacing: 0.2em;
+}
+
+
+/*----------------
+header
+----------------*/
+header {
+  margin: 0 auto;
+  width: 1100px;
+}
+
+header .main-visual {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
+header .mein-visual__nav {
+  width: 220px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+
+header .mein-visual__nav h1 {
+  margin: 0 0 50px 0;
+}
+
+header .mein-visual__nav nav {
+  margin: 50px;
+  align-items: center;
+}
+
+header .mein-visual__nav ul li {
+  margin-bottom: 50px;
+}
+
+header .mein-visual__nav ul li span {
+  font-size: 0.5em;
+  color: #F6B85B;
+}
+
+.mainvisual-image {
+  margin: 80px 0 0 100px;
+
+}
+
+.recommendation-image {
+  margin: -180px 0 0 300px;
+}
+
+.main-visual .sns-navigation {
+  width: 380px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 80px;
+  margin-top: 550px;
+}
+
+.main-visual .sns-navigation li {
+  margin-right: 50px;
+}
+
+/*----------------
+main
+----------------*/
+main {
+  margin-bottom: 80px;
+}
+
+main .important-notice {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 800px;
+  height: 75px;
+  margin: 100px auto;
+  border-radius: 50px;
+  text-align: center;
+}
+
+main .important-notice h3 {
+  background-color: #F6B85B;
+  width: 170px;
+  height: 35px;
+  border-radius: 50px;
+  padding-top: 10px;
+  margin-left: 80px;
+}
+
+main .important-notice p {
+  flex-grow: 1;
+}
+
+/*----------------
+main-concept
+----------------*/
+
+main .concept .consept-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .concept .concept-left {
+  width: 80%;
+}
+
+
+main .concept .concept-left .inner {
+  display: flex;
+  justify-content: center;
+}
+
+main .concept .concept-left .inner h2 {
+  writing-mode: vertical-rl;
+  margin-right: 10px;
+  font-size: 2rem;
+}
+
+main .concept .concept-left .inner .about {
+  line-height: 2.0;
+}
+
+main .concept .sub-title {
+  margin-left: 200px;
+}
+
+
+main .concept-right {
+  margin-right: -100px;
+}
+
+main .concept-right img {
+  width: 100%;
+}
+
+.concept .link-circle {
+  display: inline-block;
+  margin-left: 20%;
+}
+
+.concept .link-circle img {
+  width: 120px;
+}
+
+/*----------------
+main-menu
+----------------*/
+.top-menu .menu-wrapper {
+  margin-top: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
+
+.top-menu .left {
+  height: 500px;
+  background-image: url(../images/topmenu-left.png);
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 65%;
+}
+
+.top-menu .left .manu-card {
+  width: 100%;
+  margin: 10px;
+}
+
+.top-menu .left .manu-card img {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+
+.top-menu .right {
+  height: 500px;
+  line-height: 2;
+  width: 20%;
+  background-image: url(../images/soba-menu-txt.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: contain;
+  margin-right: 50px;
+}
+
+.top-menu .right h2 {
+  writing-mode: vertical-rl;
+  margin-top: 50px;
+  font-size: 2rem;
+}
+
+.top-menu .right .inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 100px;
+}
+
+.top-menu .right .inner p {
+  writing-mode: vertical-rl;
+}
+
+.top-menu .link-circle {
+  margin-left: 80%;
+}
+
+.top-menu .link-circle img {
+  width: 120px;
+  margin-bottom: 100px;
+}
+
+main .button {
+  margin-left: 90%;
+}
+
+/*----------------
+footer
+----------------*/
+footer {
+  height: 505px;
+  border-top: #573001 1px solid;
+}
+
+footer .footer-nav {
+  padding: 80px;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+footer .nav-left ul {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  line-height: 4;
+  margin-bottom: 50px;
+}
+
+footer .nav-left p {
+  font-size: 0.5em;
+}
+
+footer .nav-right {
+  line-height: 4;
+}
+
+footer .side {
+  line-height: 3;
+  margin-bottom: 50px;
+}
+
+footer .nav-right .nav-info {
+  line-height: 1.5;
+  font-size: 0.8em;
+}
+
+footer .nav-right .sns-icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+footer .blank {
+  background-color: #F6B85B;
+  height: 30px;
+  width: 100%;
+}

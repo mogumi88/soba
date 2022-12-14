@@ -1,0 +1,43 @@
+@import 'settings.scss';
+
+/*--------------
+全体構造
+----------------*/
+body {
+  background-color: #feefd9;
+  background-image: url(../images/background-img.png);
+  background: rgba(255, 255, 255, 0.5);
+  background-repeat: repeat;
+  font-family: 'Kiwi Maru', serif;
+
+
+  .page {
+    background-color: rgba(251, 233, 205, 0.5);
+  }
+
+  .first-view {
+    background-color: red;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    align-items: center;
+    padding: 50px;
+  }
+
+  span {
+    font-size: 10px;
+    color: $accent-color;
+  }
+
+  main.main-visual {
+    @include row;
+  }
+
+
+}

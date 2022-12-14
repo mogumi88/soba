@@ -1,0 +1,24 @@
+// 変数
+$main-color: #573001;
+$accent-color: #F6B85B;
+$bg-color: #FEEFD9;
+$sub-color: #FBE9CD;
+$font-normal: 16px;
+$font-large: 25px;
+$font-smoll: 13px;
+$font-extra-large: 40px;
+
+// mixin
+@mixin row() {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+@mixin center() {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
